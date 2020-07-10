@@ -1,4 +1,4 @@
-package com.biz.grade.vo;
+package com.biz.grade.domain;
 
 public class StudentVO {
 	
@@ -6,8 +6,7 @@ public class StudentVO {
 	private String name;
 	private String dept;
 	private int grade;
-	private String phone;
-	
+	private String tel;
 	
 	public String getNum() {
 		return num;
@@ -25,7 +24,7 @@ public class StudentVO {
 		return dept;
 	}
 	public void setDept(String dept) {
-		this.dept = dept;
+		dept = dept;
 	}
 	public int getGrade() {
 		return grade;
@@ -33,12 +32,16 @@ public class StudentVO {
 	public void setGrade(int grade) {
 		this.grade = grade;
 	}
-	public String getPhone() {
-		return phone;
+	public String getTel() {
+		return tel;
 	}
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
+	
+	
+	
+	
 	
 	
 

@@ -1,4 +1,4 @@
-package com.biz.grade.vo;
+package com.biz.grade.domain;
 
 public class ScoreVO {
 	
@@ -9,7 +9,7 @@ public class ScoreVO {
 	private int music;
 	
 	private int sum;
-	private int avg;
+	private float avg;
 	
 	
 	public String getNum() {
@@ -48,12 +48,14 @@ public class ScoreVO {
 	public void setSum(int sum) {
 		this.sum = sum;
 	}
-	public int getAvg() {
+	public float getAvg() {
 		return avg;
 	}
-	public void setAvg(int avg) {
+	public void setAvg(float avg) {
 		this.avg = avg;
 	}
+	
+	
 	
 	
 

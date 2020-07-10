@@ -2,11 +2,9 @@ package com.biz.grade.service;
 
 public interface ScoreService {
 	
-	public void inputScore();
-	public void inputStudent();
-	public void calcSum();
-	public void calcAvg();
+	public void loadScore();
+	public boolean inputScore();
+	public void saveScore();
 	public void scoreList();
-	
 
 }
